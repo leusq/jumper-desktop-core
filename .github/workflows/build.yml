@@ -30,7 +30,7 @@ jobs:
       fail-fast: false
       matrix:
         job:
-          - { name: "jumper-desktop-core-windows-amd64", os: 'ubuntu-latest', target: 'windows-amd64', aarch: 'x64' }
+#          - { name: "jumper-desktop-core-windows-amd64", os: 'ubuntu-latest', target: 'windows-amd64', aarch: 'x64' }
           - { name: "jumper-desktop-core-macos-universal", os: 'macos-12', target: 'macos-universal' }
 
     runs-on: ${{ matrix.job.os }}
