@@ -74,8 +74,8 @@ func makeTunnelConfig(Ipv6 bool, ServerPort int32, StrictRoute bool, EndpointInd
 				"process_name":[
 					"Hiddify.exe",
 					"Hiddify",
-					"HiddifyCli",
-					"HiddifyCli.exe"
+					"JumperCli",
+					"JumperCli.exe"
 					],
 				"outbound": "direct-out"
 			}

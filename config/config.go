@@ -482,16 +482,6 @@ func setRoutingOptions(options *option.Options, opt *HiddifyOptions) {
 				},
 			},
 		)
-		// routeRules = append(
-		// 	routeRules,
-		// 	option.Rule{
-		// 		Type: C.RuleTypeDefault,
-		// 		DefaultOptions: option.DefaultRule{
-		// 			ProcessName: []string{"Hiddify", "Hiddify.exe", "HiddifyCli", "HiddifyCli.exe"},
-		// 			Outbound:    OutboundBypassTag,
-		// 		},
-		// 	},
-		// )
 	}
 	routeRules = append(routeRules, option.Rule{
 		Type: C.RuleTypeDefault,
